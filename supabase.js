@@ -5,7 +5,7 @@ const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZ
 
 export const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
-export const CATEGORIES = ['时事', '移民', '教育', '财经', '科技', '商业', '生活'];
+export const CATEGORIES = ['时事', '移民', '教育', '财经', '科技', '生活'];
 
 export const CAT_COLORS = {
   '时事': '#1a56db',
